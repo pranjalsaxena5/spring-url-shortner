@@ -1,0 +1,58 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# === Gradle ===
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Logs ===
+*.log
+logs/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Environment/config files ===
+*.env
+.env
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# === Test results ===
+test-output/
+surefire-reports/
+
+# === Backup/temporary files ===
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# === Node modules (if using frontend) ===
+node_modules/
+dist/
+build/
